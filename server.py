@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from wsgiref.simple_server import make_server, WSGIServer
@@ -27,7 +27,6 @@ def home(name='Home'):
 
 
 def main():
-    print application
     httpd = make_server('', 8000, application, ThreadingWSGIServer)
     print 'Listening on port 8000....'
     httpd.serve_forever()
