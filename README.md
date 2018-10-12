@@ -8,7 +8,7 @@ Mini web app for test and as example for wolf
 ### Installation
 `pip install jinja2`
 
-`git clone https://github.com/vukvojta/wolf-test.git`
+`git clone git@github.com:vukvojta/wolf-test.git`
 
 `cd wolf-test`
 
@@ -17,4 +17,4 @@ Mini web app for test and as example for wolf
 
 ### Testing
 - Go to [http://localhost:8000](http://localhost:8000) with your favourite browser
-- Try variations like http://localhost:8000/&lt;name&gt;, where &lt;name&gt; must have the first letter capitalized and other letters lowercase. See how the text on the page changes. Example [http://localhost:8000/Wolf](http://localhost:8000/Wolf)
+- Try variations like http://localhost:8000/[name], where [name] must have the first letter capitalized and other letters lowercase. See how the text on the page changes. Example [http://localhost:8000/Wolf](http://localhost:8000/Wolf)
